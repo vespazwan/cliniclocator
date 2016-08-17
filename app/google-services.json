@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1080844212336",
+    "project_id": "brilliant-tide-135723"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080844212336:android:53b86a746a943505",
+        "android_client_info": {
+          "package_name": "ihs.com.cliniclocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080844212336-qu1mar348ro5g9gc8gmfakgs5v4e1ii8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ihs.com.cliniclocator",
+            "certificate_hash": "C2B22F2155F22161602DE3A0BDC099EE4CA2494F"
+          }
+        },
+        {
+          "client_id": "1080844212336-u1629rr1rfva4ovua3ig70b96gkms228.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm-vxGKWqYbMDGDe_8M4HnfzUrdhm-12I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

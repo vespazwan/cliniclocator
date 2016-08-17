@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="ihs.com.cliniclocator.DetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextAppearance="@style/AppTheme.Toolbar.Title" />
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/map"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:background="@android:color/white"
+                        android:layout_gravity="center_vertical"
+                        android:layout_alignParentTop="true"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#c33d4a5c"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/DETAILS_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="John Doe"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center" />
+                    </FrameLayout>
+
+                    <!--<CheckBox-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Set Favourite"-->
+                        <!--android:id="@+id/fav_cb"-->
+                        <!--android:layout_alignParentTop="true"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_alignParentEnd="true" />-->
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+                    <HorizontalScrollView
+                        android:id="@+id/hsv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/gambar1"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+                            <ImageView
+                                android:id="@+id/gambar2"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+                            <ImageView
+                                android:id="@+id/gambar3"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+                            <ImageView
+                                android:id="@+id/gambar4"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:layout_centerVertical="true"/>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="70dp"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+                        <!--android:gravity="right">-->
+
+                        <!--<android.support.design.widget.FloatingActionButton-->
+                            <!--android:id="@+id/FAB_call"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+                            <!--android:src="@android:drawable/ic_menu_call"-->
+                            <!--app:backgroundTint="@color/colorPrimary"-->
+                            <!--app:borderWidth="0dp"-->
+                            <!--app:elevation="6dp"-->
+                            <!--app:fabSize="normal"/>-->
+
+                        <!--<android.support.design.widget.FloatingActionButton-->
+                            <!--android:id="@+id/FAB_share"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+                            <!--android:src="@android:drawable/ic_menu_share"-->
+                            <!--app:backgroundTint="@color/colorPrimary"-->
+                            <!--app:borderWidth="0dp"-->
+                            <!--app:elevation="6dp"-->
+                            <!--app:fabSize="normal"/>-->
+
+                        <!--<android.support.design.widget.FloatingActionButton-->
+                            <!--android:id="@+id/FAB_direction"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+                            <!--android:src="@android:drawable/ic_menu_directions"-->
+                            <!--app:backgroundTint="@color/colorPrimary"-->
+                            <!--app:borderWidth="0dp"-->
+                            <!--app:elevation="6dp"-->
+                            <!--app:fabSize="normal"/>-->
+
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                        <TextView
+                            android:id="@+id/DETAILS_address_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address"
+                            android:textColor="#000"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:id="@+id/DETAILS_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SUITE 4.05 4TH FLOOR MENARA PROMET JLN SULTAN ISMAIL 50250"
+                            android:textColor="#9f9f9f"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+                        <TextView
+                            android:id="@+id/DETAILS_panel_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Panel List"
+                            android:textColor="#000"
+                            android:textSize="15sp"/>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/panelLayout"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/DETAILS_panel"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="PMC"-->
+                                <!--android:textColor="#9f9f9f"-->
+                                <!--android:textSize="15sp"/>-->
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ratingLayout">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                                <TextView
+                                    android:id="@+id/DETAILS_rating_label"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Rating"
+                                    android:textColor="#000"
+                                    android:textSize="15sp"/>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/rating_circle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0"
+                                        android:textSize="25sp"
+                                        android:gravity="center_vertical"
+                                        android:textColor="#000"/>
+
+                                    <TextView
+                                        android:id="@+id/rating_circle_full"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=" / 5.0"
+                                        android:textSize="15sp"
+                                        android:gravity="center_vertical"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/rating_star"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#000"
+                                    android:textSize="15sp"
+                                    android:background="@drawable/ic_star_rate_black_18px"
+                                    android:visibility="invisible"/>
+
+                            </LinearLayout>
+
+                            <com.github.mikephil.charting.charts.HorizontalBarChart
+                                android:id="@+id/chart_rating"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:visibility="invisible"/>
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnreadmore"
+                            android:text="SHOW MORE"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_addButtonColorNormal="@color/colorAccent"
+        fab:fab_addButtonColorPressed="@color/colorAccentOverlay"
+        fab:fab_addButtonPlusIconColor="#ffffff"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_call_white_24dp"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_title="Call"
+            fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_share_white_24dp"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_title="Share"
+            fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_navigation_white_24dp"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_title="Navigate"
+            fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_star_rate_white_18px"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_title="Rate"
+            fab:fab_colorPressed="@color/colorPrimaryDark"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
+

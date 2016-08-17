@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ClinicLocator</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- ClinicLocator -->
+    <string name="page_is_loading">Loading</string>
+    <string name="about_us">About ClinicLocator</string>
+    <string name="clinic">Clinic</string>
+    <string name="locator">Locator</string>
+    <string name="copyright">Copyright</string>
+    <!-- Replace below
+    <string name="GOOGLE_MAP_API_KEY">AIzaSyBXN19sCrIax8__da3yeuFOD3AEZGvNzh4</string>
+    -->
+    <string name="GOOGLE_MAP_API_KEY">AIzaSyCih-wez3UjdDtqIt7zOAMQUGSrXbGduUY</string>
+    <string name="title_activity_locator">LocatorActivity</string>
+    <string name="search">Search</string>
+    <string name="map">Map</string>
+    <string name="listing">List</string>
+    <string name="title_activity_fullscreen_check_connection">FullscreenCheckConnectionActivity</string>
+    <string name="btn_retry_connect">Retry</string>
+    <string name="search_hint">Search clinic name or panel or location</string>
+    <string name="action_info">About</string>
+    <string name="app_version">Version 1.0</string>
+
+    <!-- error string -->
+    <string name="please_check_internet_connection">Cannot detect location. Please check internet connection and try again.</string>
+    <string name="you_dont_have_permission">You do not have permission to allow detect location. Please allow detect location and try again.</string>
+    <string name="no_result_found">No result found. Please try again.</string>
+
+    <!-- test -->
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigation_drawer">ClinicLocator</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_about_fragment">Hello about fragment</string>
+    <string name="hello_home_fragment">Hello home fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_intro">Introduction</string>
+    <string name="splash_tag_line">Find the nearest CLINIC at your fingertip</string>
+    <string name="no_data_available">No results found.</string>
+    <string name="feedback_word">We would love to get your feedback. Please let us know.</string>
+    <string name="link_web">Please visit our <a href="http://h2care.com.my/cliniclocator">website</a> for more information.</string>
+    <string name="promote_us">Promote Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="title_activity_clinics_rating">ClinicsRatingActivity</string>
+    <string name="title_activity_user_signup">UserSignupActivity</string>
+</resources>

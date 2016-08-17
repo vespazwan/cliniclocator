@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ihs.com.cliniclocator.AboutActivity"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.Title"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgloadingscreenabout"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:contentDescription="@string/about_us"
+            android:src="@drawable/clinic_locator_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="@android:dimen/notification_large_icon_height"/>
+
+        <TextView
+            android:id="@+id/fullscreen_content_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/app_name"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fullscreen_content_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/app_version"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/visit_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/link_web"
+            android:textColor="@color/abc_primary_text_material_dark"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:foregroundGravity="bottom">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="@string/promote_us"
+                    android:id="@+id/btn_promote"
+                    android:layout_gravity="center_horizontal|top"
+                    android:theme="@style/BtnPrimary"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="@string/rate_us"
+                    android:id="@+id/btn_rate"
+                    android:layout_gravity="center_horizontal|top"
+                    android:theme="@style/BtnPrimary"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fullscreen_content_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:keepScreenOn="true"
+                android:text="@string/app_version"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:textSize="10sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

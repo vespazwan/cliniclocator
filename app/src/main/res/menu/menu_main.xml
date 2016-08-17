@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_search"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always"/>
+        -->
+
+    <item
+        android:id="@+id/action_map"
+        android:title="@string/map"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_map"
+        appcompat:showAsAction="always"/>
+
+    <!-- replace appcompat:showAsAction="never" -->
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_info"
+        android:orderInCategory="300"
+        android:icon="@android:drawable/ic_menu_info_details"
+        appcompat:showAsAction="always"/>
+        -->
+</menu>

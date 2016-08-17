@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+        -->
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="200"
+        android:title="@string/map"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_map" />
+
+    <item
+        android:id="@+id/nav_info"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_info"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_send"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Send Feedback"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/nav_promote"
+        android:orderInCategory="100"
+        android:title="Promote Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_rate"
+        android:orderInCategory="100"
+        android:title="Rate"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/app_intro"
+        android:orderInCategory="100"
+        android:title="App Intro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sign_in"
+        android:orderInCategory="100"
+        android:title="Sign In"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/account"
+        android:orderInCategory="100"
+        android:title="Account"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3d4a5c</color>-->
+    <!--<color name="colorPrimaryDark">#2b3d4f</color>-->
+    <color name="colorPrimary">#043D5D</color>
+    <color name="colorPrimaryDark">#032E46</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#23B684</color>
+    <color name="colorAccentOverlay">#47C9AF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="grey9f">#9f9f9f</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="dark_blue">#1D5DA4</color>
+    <color name="dark_blue_pressed">#044B9A</color>
+    <color name="pmCare">#22A7F0</color>
+    <color name="redAlert">#CF000F</color>
+    <color name="redGoogle">#D73D32</color>ea4a3f
+    <color name="redGoogleOverlay">#EA4A3F</color>
+</resources>

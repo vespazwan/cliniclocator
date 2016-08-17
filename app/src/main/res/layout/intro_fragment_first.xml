@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1abc9c"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Welcome and thank you for downloading ClinicLocator"
+        android:id="@+id/intro_title_1"
+        android:gravity="center|center_horizontal"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/image_intro_1"
+        android:src="@drawable/intro1"
+        android:padding="40dp"
+        android:layout_marginLeft="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This app provides the fastest way to find clinics in Malaysia on your smartphone (Version IOS will be available soon)"
+        android:id="@+id/intro_desc_1"
+        android:gravity="center|center_horizontal"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:padding="30dp"
+        android:layout_weight="0.40" />
+</LinearLayout>
